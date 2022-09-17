@@ -516,6 +516,79 @@ padding-bottom: 94px;}
   fill: currentColor;
 }
 
+/* client section */
+
+.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+
+.client-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--add-cl);
+}
+
+.client-list {
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  
+}
+ 
+
+.client-item {
+
+  width: 170px;
+  height: 90px;
+}
+
+.client-link {
+
+display: flex;
+justify-content: center;
+align-items: center;
+width: 170px;
+height: 92px;
+border: 1px solid var(--logo-color);
+border-radius: 4px;
+color: var(--accent-color);
+}
+
+.client-icon {
+  fill: var(--logo-color);
+}
+
+.client-link:hover,
+.client-link:focus {
+  border: 1px solid var(--accent-cl);
+}
+
+.client-link:hover,  
+.client-link:focus {
+  fill: var(--accent-color);
+}
+
+.client-icon:hover,  
+.client-icon:focus {
+  fill: var(--accent-cl);
+}
+
+
+
+
+.client-icon
+
 /* portfolio page body*/
 
 .portfolio {
