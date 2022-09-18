@@ -506,8 +506,7 @@ padding-bottom: 94px;}
   color: var(--logo-color); 
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-link:hover {
   color: var(--white-cl);
   background-color: var(--accent-cl);
 }
@@ -582,16 +581,11 @@ color: var(--accent-color);
   fill: var(--accent-cl);
 }
 
-
-
-
-.client-icon
-
 /* portfolio page body*/
 
 .portfolio {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 94px; 
 }
 
 .portfolio-buttons {
