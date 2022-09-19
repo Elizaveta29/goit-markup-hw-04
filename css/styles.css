@@ -291,7 +291,11 @@ color: #ffffff;
 background-color: #ffffff10;
 }
 
-.social-footer-link:hover,
+.social-footer-link:hover {
+  color: var(--white-cl);
+  background-color: var(--accent-cl);
+}
+
 .social-footer-link:focus {
   color: var(--white-cl);
   background-color: var(--accent-cl);
@@ -506,7 +510,9 @@ padding-bottom: 94px;}
   color: var(--logo-color); 
 }
 
-.social-link:hover {
+
+.social-link:hover,
+.social-link:focus {
   color: var(--white-cl);
   background-color: var(--accent-cl);
 }
@@ -515,6 +521,16 @@ padding-bottom: 94px;}
 .social-logo {
   fill: currentColor;
 }
+
+.client-link:hover,
+.client-link:focus {
+    border: 1px solid var(--accent-cl);
+  }
+
+  .client-link:hover .client-icon,
+   .client-link:focus .client-icon {
+    fill: var(--accent-cl);
+  }
 
 /* client section */
 
@@ -569,17 +585,9 @@ color: var(--accent-color);
   fill: var(--logo-color);
 }
 
-.client-link:hover,
-.client-link:focus {
-  border: 1px solid var(--accent-cl);
-}
 
 
 
-.client-icon:hover,  
-.client-icon:focus {
-  fill: var(--accent-cl);
-}
 
 /* portfolio page body*/
 
@@ -650,7 +658,8 @@ color: var(--accent-color);
   margin-bottom: 0;
  }
 
- .portfolio-card:hover, .portfolio-item:focus {
+ .portfolio-card:hover,
+  .portfolio-item:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
